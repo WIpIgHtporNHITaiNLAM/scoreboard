@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100%;
+  width: 100%;
+  min-width: 1060px;
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1em;
+  color: #ffffff;
+}
+
+#root {
+  display: flex;
+  flex-grow: 1;
+}
